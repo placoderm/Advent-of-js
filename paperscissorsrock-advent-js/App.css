@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+body * {
+  font-family: "Roboto Mono";
+}
+
+h1 {
+  text-align: center;
+}
+
+#button-choices {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  width: 900px;
+  gap: 6rem;
+}
+
+.image-button {
+  width: 315px;
+  height: 355px;
+  padding: 2rem;
+}
+.image-button:hover {
+  outline: solid 5px gold;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+
+button img {
+  max-width: 250px;
+  max-height: 200px;
+  /* max-height: 259px; */
+}
+
+#results-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.player-win-background {
+  background-image: url("./images/you-win.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+.computer-win-background {
+  background-image: url("./images/computer-wins.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+#message-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+#result-images-area {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.result-image {
+  width: 215px;
+  height: 155px;
+  padding: 1rem;
+  mix-blend-mode: multiply;
+}
+
+.result-image img {
+  max-width: 100%;
+  max-height: 259px;
+}
+
+button.play-again-button {
+  border: solid 2px;
+  width: 12rem;
+  margin: auto;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
