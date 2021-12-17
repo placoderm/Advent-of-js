@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p.your-rating {
+  text-align: center;
+}
+
+#star-area {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+path.normal {
+  stroke: #696969;
+  stroke-width: 4px;
+  /* fill: #ffd200 !important; */
+}
+
+.selected {
+  fill: #ffd200 !important;
+  stroke: #ffd200 !important;
+}
