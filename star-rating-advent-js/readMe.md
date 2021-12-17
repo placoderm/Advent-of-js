@@ -1,6 +1,6 @@
-Live Site: https://star-rating-advent-js.netlify.app/
-Repository:
-From: adventofjs.com
+- Live Site: https://star-rating-advent-js.netlify.app/
+  \*Repository: https://github.com/placoderm/Advent-of-js/tree/main/star-rating-advent-js#readme
+- From: https://adventofjs.com
 
 # How I made it
 
@@ -8,7 +8,7 @@ So, I really didn't like the behaviour of the ui as given in the challenge. I do
 
 The whole thing is done in React, just because that's what I'm learning now. And honestly I may be doing things in the most complicated way possible, so any feedback is welcome.
 
-I create a state array called `starRatings` that contains a `true`/`false` value for each star. In retrospect, this is kind of ridiculous. It did give me some experience working with arrays. ¯\_(ツ)\_/¯
+I create a state array called `starRatings` that contains a `true`/`false` value for each star. In retrospect, this is kind of ridiculous. It did give me some experience working with arrays. ¯\\\_(ツ)\_/¯
 
 I map over the array to generate the html stars on the page. Starts with three stars selected.
 
