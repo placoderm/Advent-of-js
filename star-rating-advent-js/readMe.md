@@ -1,6 +1,6 @@
-- Live Site: https://star-rating-advent-js.netlify.app/
-  \*Repository: https://github.com/placoderm/Advent-of-js/tree/main/star-rating-advent-js#readme
-- From: https://adventofjs.com
+- **Live Site**: https://star-rating-advent-js.netlify.app/
+- **Repository**: https://github.com/placoderm/Advent-of-js/tree/main/star-rating-advent-js#readme
+- **From**: https://adventofjs.com
 
 # How I made it
 
