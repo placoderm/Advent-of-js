@@ -1,5 +1,5 @@
-- **Live Site**: toc-advent-js.netlify.app
-- **Repository**:
+- **Live Site**: https://toc-advent-js.netlify.app
+- **Repository**: https://github.com/placoderm/Advent-of-js/tree/main/sidebarToc-advent-js
 - **From**: https://adventofjs.com
 
 # How I made it
