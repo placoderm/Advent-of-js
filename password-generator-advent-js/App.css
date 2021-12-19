@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #f1f7f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#generator {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 1rem;
+  width: 450px;
+  margin: auto;
+  padding: 2rem;
+  border: solid 1px rgb(191, 209, 186);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(220, 220, 220, 0.664);
+}
+
+#generator div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #56858a;
+  margin: 0 0 0.5rem 0;
+}
+
+div#password-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  column-gap: 0.5rem;
+  align-items: center;
+}
+
+div.password {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.15rem;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(220, 220, 220, 0.664);
+  height: 1.5rem;
+  width: 21.5rem;
+  padding: 0.9rem;
+}
+
+#copy-notice {
+  color: #4a9661;
+  font-weight: bold;
+}
+
+#copy-area {
+  width: 45px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+path.normal-icon {
+  fill: #7da9ae;
+}
+
+.copy-clicked {
+  fill: #4a9661 !important;
+}
+
+#range-slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.length-number {
+  margin: 0 5px 0 10px;
+}
+
+button#refresh {
+  margin-left: 1rem !important;
+}
+
+img.checkbox {
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 200px; /* Full-width */
+  height: 0.6rem; /* Specified height */
+  background: white;
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 1.4rem; /* Set a specific slider handle width */
+  height: 1.4rem; /* Slider handle height */
+  background: #7da9ae; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 1rem;
+  outline: solid 1px #999999;
+}
+
+.slider::-moz-range-thumb {
+  width: 1.4rem; /* Set a specific slider handle width */
+  height: 1.4rem; /* Slider handle height */
+  background: #7da9ae; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 1rem;
+  border: none;
+  outline: solid 1px #999999;
+}
+
+div#text-copy-button-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+button.text-copy-button {
+  background-color: #7da9ae;
+  color: white;
+  font-size: 1rem;
+  border-radius: 2rem;
+  padding: 0.8rem;
+  width: 10rem;
+  text-align: center;
+  display: inline-block;
+}
+
+button.text-copy-button:hover {
+  background-color: #56858a;
+  box-shadow: 5px 5px 10px rgba(220, 220, 220, 0.829);
+}
+
+@media only screen and (max-width: 975px) {
+  #generator {
+    row-gap: 0.5rem;
+    width: unset;
+    margin: auto;
+    padding: 0rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: unset;
+  }
+  div.password {
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(220, 220, 220, 0.664);
+    height: 1.5rem;
+    width: 18rem;
+    padding: 0.5rem;
+    letter-spacing: -1px;
+  }
+  #copy-notice {
+    display: none;
+  }
+
+  .slider {
+    width: 180px;
+  }
+}
