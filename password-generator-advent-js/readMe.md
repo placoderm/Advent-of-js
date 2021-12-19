@@ -1,7 +1,7 @@
 # Password Generator
 
 - **Live Site**: https://password-generator-advent-js.netlify.app/
-- **Repository**:
+- **Repository**: https://github.com/placoderm/Advent-of-js/tree/main/password-generator-advent-js#readme
 - **From**: https://adventofjs.com
 
 # How I made it
